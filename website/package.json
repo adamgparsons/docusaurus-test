@@ -6,9 +6,13 @@
     "publish-gh-pages": "docusaurus-publish",
     "write-translations": "docusaurus-write-translations",
     "version": "docusaurus-version",
-    "rename-version": "docusaurus-rename-version"
+    "rename-version": "docusaurus-rename-version",
+    "sass-compile": "sass --watch --no-source-map scss/index.scss static/css/custom.css"
   },
   "devDependencies": {
     "docusaurus": "^1.12.0"
+  },
+  "dependencies": {
+    "sass": "^1.23.0-module.beta.1"
   }
 }

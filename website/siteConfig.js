@@ -90,6 +90,8 @@ const siteConfig = {
 
   // Open Graph and Twitter card images.
   ogImage: "img/undraw_online.svg",
+  // added external sheets
+  stylesheets: ["https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css"],
   twitterImage: "img/undraw_tweetstorm.svg"
 
   // For sites with a sizable amount of content, set collapsible to true.
